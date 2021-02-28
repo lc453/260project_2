@@ -1,0 +1,72 @@
+h1 {
+	font-size: 36px;
+}
+
+form {
+	margin-top: 40px;
+}
+
+body {
+	background-color: #161616;
+	color: #c0c0c0;
+}
+
+h2 {
+	color: #bfff00;
+}
+
+a {
+	color: #e6add8;
+}
+
+.page {
+	display: flex;
+        justify-content: space-between;
+}
+
+.positive {
+	color: #00cc00;
+}
+
+.negative {
+	color: #ff0000;
+}
+
+.heading {
+	display: flex;
+	justify-content: space-around;
+}
+
+.block {
+	margin-right: 40px;
+}
+
+.container {
+}
+
+.column {
+	width: 75%;
+	padding: 25px;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #161616;
+        position: fixed;
+        bottom: 0px;
+        width:100%;
+	border: 2px solid #c0c0c0;
+}
+
+#coinlist {
+	margin-left: 20px;
+	padding: 5px;
+	border: 1px dotted #c0c0c0;
+}
+
+@media only screen and (max-width: 1000px) {
+	#coinlist {
+		display: hide;
+	}
+}
