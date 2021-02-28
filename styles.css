@@ -53,7 +53,7 @@ img {
 
 .column {
 	width: 75%;
-	margin-left: 40px;
+	margin-left: 0px;
 }
 
 .footer {
@@ -68,6 +68,8 @@ img {
 
 #coinlist {
 	margin-left: 20px;
+	margin-top: 15px;
+	margin-right: 40px;
 	padding: 5px;
 	border: 1px dotted #c0c0c0;
 }
