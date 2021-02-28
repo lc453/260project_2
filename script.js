@@ -44,7 +44,7 @@ document.querySelector("#coinlist").innerHTML = makeCryptoList();
 
 document.getElementById("coinSubmit").addEventListener("click", function(event) {
 	event.preventDefault();
-	const value = document.getElementById("coinInput").value;
+	const value = document.getElementById("coinInput").value.toLowerCase();
 	if (value === "")
 		return;
 	console.log(value);

@@ -19,9 +19,15 @@ a {
 	color: #e6add8;
 }
 
+img {
+	width: auto;
+	height: 100px;
+	margin-left: 50px;
+}
+
 .page {
 	display: flex;
-        justify-content: space-between;
+        justify-content: center;
 }
 
 .positive {
@@ -34,11 +40,12 @@ a {
 
 .heading {
 	display: flex;
-	justify-content: space-around;
 }
 
-.block {
-	margin-right: 40px;
+@Media only screen and (min-width: 1001px) {
+	.block {
+		margin-right: 40px;
+	}
 }
 
 .container {
@@ -46,7 +53,7 @@ a {
 
 .column {
 	width: 75%;
-	padding: 25px;
+	margin-left: 40px;
 }
 
 .footer {
@@ -67,6 +74,19 @@ a {
 
 @media only screen and (max-width: 1000px) {
 	#coinlist {
-		display: hide;
+		display: none;
+	}
+
+	p {
+		font-size: 26px;
+	}
+
+	h2 {
+		font-size: 48px;
+	}
+
+
+	.column {
+		text-align: center;
 	}
 }
